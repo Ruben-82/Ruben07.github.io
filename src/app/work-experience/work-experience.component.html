@@ -1,30 +1,43 @@
-<h3>Experiencia Laboral</h3>
-<table border="0">
+<article class="Contenedor">
+  <Section class="Titulo_Caja">
+    <h1 class="Titulo_Letra">Experiencia Laboral</h1>
+  </Section>
+
+  <table class="Tabla_Contenido">
     <ul *ngFor="let work of workExperience">
+      <tr>
+        <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+          {{ work.fecha }}
+        </p>
+
+        <td>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+            {{ work.ubicacion }}
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+          {{ work.empresa }}
+        </p>
+      </tr>
+
+      <tr>
+        <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+          {{ work.puesto }}
+        </p>
+      </tr>
+
+      <ul *ngFor="let logro of work.logros">
         <li>
-            <tr>
-                <td> {{ work.fecha }} </td>
-                <td> {{ work.ubicacion }} </td>
-            </tr>
-
-            <tr>
-                <td> {{ work.puesto }} </td>
-                <td> </td>
-            </tr>
-
-            <tr>
-                <td> {{ work.empresa }}</td>
-            </tr>
-            <tr>
-                <td>Logros</td>
-            </tr>
-            <ul *ngFor="let logro of work.logros">
-                <li>
-                    <tr>
-                        <td>{{logro.descripcion}}</td>
-                    </tr>
-                </li>
-            </ul>
+          <tr>
+            <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+              {{ logro.descripcion }}
+            </p>
+          </tr>
         </li>
+      </ul>
     </ul>
-</table>
+  </table>
+</article>

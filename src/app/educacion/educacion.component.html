@@ -1,0 +1,28 @@
+<article class="Contenedor">
+  <section class="Titulo_Caja">
+    <h1 class="Titulo_Letra"> Educación </h1>
+  </section>
+
+  <table class="Tabla_Contenido">
+    <ul *ngFor="let educacion of Educacion">
+      <tr>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+            {{ educacion.Anio }}
+          </p>
+
+        <td>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+            {{ educacion.Localidad }}
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+          <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Titulo">
+            {{ educacion.Escuela }}
+          </p>
+      </tr>
+
+    </ul>
+  </table>
+</article>

@@ -1,0 +1,31 @@
+<article class="Contenedor">
+  <section class="Titulo_Caja">
+    <h1 class="Titulo_Letra">Habilidades y competencias</h1>
+  </section>
+
+  <table class="Tabla_Contenido">
+    <ng-container *ngFor="let Experiencia of ExperienciaLaboral">
+      <tr>
+        <td>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+            Tecnologia
+          </p>
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Texto">
+            {{ Experiencia.Tecnologia }}
+          </p>
+        </td>
+
+        <td class="Tabla_Contenido_Icono">
+          <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+            Nivel
+          </p>
+
+          <ul *ngFor="let nivel of Experiencia.Nivel">
+            <progress value="{{nivel.porcentaje}}" max="100"> 70%</progress>
+            <br>
+          </ul>
+        </td>
+      </tr>
+    </ng-container>
+  </table>
+</article>
