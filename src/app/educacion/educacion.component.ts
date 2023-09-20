@@ -21,7 +21,7 @@ export class EducacionComponent implements OnInit {
     let educacion2 = {
       Anio: "2016 - 2019",
       Escuela: "Cobaev 25",
-      Localidad: "Orizaba"
+      Localidad: "Huatusco"
     }
 
     let educacion3 = {
