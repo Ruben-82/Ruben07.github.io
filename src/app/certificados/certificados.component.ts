@@ -61,7 +61,7 @@ export class CertificadosComponent implements OnInit {
       Nombre: "Curso de Intermediate Machine Learning",
       Descripción: "Curso realizado en kaggle",
       Experiencia: "1 dias",
-      Imagen: ""
+      Imagen: "https://firebasestorage.googleapis.com/v0/b/calculadora-93291.appspot.com/o/Inteligencia%20artificial%20Cursos%20Kaggle%2FRuben82%20-%20Intermediate%20Machine%20Learning.png?alt=media&token=d05ced88-734c-43a0-bed8-0d81f0dbf612"
     }
 
 
@@ -71,7 +71,8 @@ export class CertificadosComponent implements OnInit {
     this.Certificados.push(Certificado4);
     this.Certificados.push(Certificado5);
     this.Certificados.push(Certificado6);
-    this.Certificados.push(Certificado7)
+    this.Certificados.push(Certificado7);
+    this.Certificados.push(Certificado8)
   }
 
 }
