@@ -57,6 +57,13 @@ export class CertificadosComponent implements OnInit {
       Imagen: "https://firebasestorage.googleapis.com/v0/b/calculadora-93291.appspot.com/o/Inteligencia%20artificial%20Cursos%20Kaggle%2FRuben82%20-%20Intro%20to%20Machine%20Learning.png?alt=media&token=f86bbbec-078e-4cb7-991e-77b38cee937e"
     }
 
+    let Certificado8 = {
+      Nombre: "Curso de Intermediate Machine Learning",
+      Descripción: "Curso realizado en kaggle",
+      Experiencia: "1 dias",
+      Imagen: ""
+    }
+
 
     this.Certificados.push(Certificado1);
     this.Certificados.push(Certificado2);
