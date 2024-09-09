@@ -33,8 +33,13 @@ export class WorkExperienceComponent implements OnInit {
       puesto: "CEO",
       empresa: "ADESOFT",
       logros: [
-        {descipcion: "Contruccion de ERP en la nube de google"},
-        {descripcion: "Creacion de un cluster en hadoop y spark"}
+        {descipcion: "Curso kagle"},
+        {descripcion: "Curso de python"},
+        {descripcion: "Creacion de flutter con IA en python(proyecto taxi-trip-prediction)"},
+        {descripcion: "Curso de Pandas"},
+        {descripcion: "Curso Intro to Machine Learning"},
+        {descripcion: "Curso Intermedie Machine Learning"},
+
       ]
     };
 

@@ -36,7 +36,7 @@
 
 .Caja_Header_Tabla-Info {
   color: darkgray;
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
 }
@@ -44,7 +44,7 @@
 .Caja_Informacion-Foto {
   padding: 0;
   width: 10rem;
-  height: 15rem;
+  height: 13rem;
   margin: 0 2rem;
   border-radius: 7rem;
   border-color: black;

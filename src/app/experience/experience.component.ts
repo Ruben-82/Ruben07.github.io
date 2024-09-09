@@ -11,12 +11,12 @@ export class ExperienceComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  
+
     let Experiencia1 = {
       Tecnologia: "HTML",
       Area: "Desarrollo Web",
       Nivel: [
-        {porcentaje: 80}
+        {porcentaje: 45}
       ]
     }
 
@@ -24,7 +24,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "CSS",
       Area: "Desarrollo Web",
       Nivel: [
-        {porcentaje: 70}
+        {porcentaje: 20}
       ]
     }
 
@@ -32,7 +32,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "JS",
       Area: "Desarrollo Web",
       Nivel: [
-        {porcentaje: 50}
+        {porcentaje: 15}
       ]
     }
 
@@ -40,7 +40,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia : "Node JS",
       Area: "Desarrollo Web",
       Nivel: [
-        {porcentaje: 70}
+        {porcentaje: 15}
       ]
     }
 
@@ -48,7 +48,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "REACT",
       Area: "Desarrollo Web",
       Nivel: [
-        {porcentaje:70}
+        {porcentaje:30}
       ]
     }
 
@@ -56,7 +56,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "SQL Server",
       Area: "Base de Datos",
       Nivel: [
-        {porcentaje: 90}
+        {porcentaje: 20}
       ]
     }
 
@@ -64,7 +64,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "MySQL",
       Area: "Base de Datos",
       Nivel: [
-        {porcentaje: 80}
+        {porcentaje: 20}
       ]
     }
 
@@ -72,7 +72,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "Draw.io",
       Area: "Diseño de Software",
       Nivel: [
-        {porcentaje: 60}
+        {porcentaje: 30}
       ]
     }
 
@@ -80,7 +80,7 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "Angular",
       Area: "Desarrollo Web",
       Nivel: [
-        {porcentaje: 80}
+        {porcentaje:35}
       ]
     }
 
@@ -88,7 +88,15 @@ export class ExperienceComponent implements OnInit {
       Tecnologia: "Postgres",
       Area: "Base de datos",
       Nivel: [
-        {porcentaje: 60}
+        {porcentaje: 20}
+      ]
+    }
+
+    let Experiencia11 = {
+      Tecnologia: "Python",
+      Area: "Desarrollo backend",
+      Nivel: [
+        {porcentaje: 25 }
       ]
     }
 
@@ -102,6 +110,7 @@ export class ExperienceComponent implements OnInit {
     this.ExperienciaLaboral.push(Experiencia8);
     this.ExperienciaLaboral.push(Experiencia9);
     this.ExperienciaLaboral.push(Experiencia10);
+    this.ExperienciaLaboral.push(Experiencia11);
 
   }
 
