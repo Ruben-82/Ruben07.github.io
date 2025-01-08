@@ -1,65 +1,37 @@
-.Titulo_Caja {
-  display: flex;
-  flex-direction: column;
-
-  background-color: cadetblue;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  height: 2rem;
-  width: 20rem;
-  padding: 0;
+.Contenedor {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-.Titulo_Letra{
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 700;
-  color: black;
+.Titulo_Caja {
+  text-align: center;
+  background-color: #ff9800;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.Titulo_Letra {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 
 .Tabla_Contenido {
-  background-color: antiquewhite;
-  width: 100%;
+  margin-top: 20px;
 }
 
-.Tabla_Contenido_Letra {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.Tabla_Contenido_Letra-Titulo {
-  font-size: 20px;
-  color: black;
-  margin: 0rem ;
-  margin-left: 1rem;
-}
-
-.Tabla_Contenido_Letra-Texto {
-  font-size: 20px;
-  color: darkgray;
-  margin: 0rem;
-  margin-left: 1rem;
-  margin-top: 0;
-}
-
-.Tabla_Contenido_Imagen {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-  padding: 0;
-}
-
-.Tabla_Contenido_Icono {
+.Tabla_Contenido tr {
   display: flex;
-  flex-direction: row;
-}
-
-.Tabla_Contenido_Icono ul {
-  margin-left: 1rem;
-  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
 }
